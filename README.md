@@ -26,14 +26,14 @@ Of course I will explain most of this in much better detail when we will start.
 Cheers,
 Massimiliano
 
-[1] https://github.com/janosh/awesome-normalizing-flows
-[2] https://indico.cern.ch/event/1249252/contributions/5248861/attachments/2584931/4459247/23_01_20%20-%20MEMFlow%20project.pdf
-[3] https://arxiv.org/pdf/1912.02762.pdf
-[4] https://arxiv.org/pdf/1908.09257.pdf
-[5] https://arxiv.org/pdf/1906.04032.pdf
-[6] https://arxiv.org/pdf/2211.02487.pdf
-[7] https://github.com/jraine/flows4flows
-[8] https://arxiv.org/abs/2208.12279
-[9] https://github.com/maxgalli/ShowerShapesNormalizingFlow
-[10] https://github.com/bayesiains/nflows
-[11] https://github.com/francois-rozet/zuko.git
+[1] https://github.com/janosh/awesome-normalizing-flows <br />
+[2] https://indico.cern.ch/event/1249252/contributions/5248861/attachments/2584931/4459247/23_01_20%20-%20MEMFlow%20project.pdf <br />
+[3] https://arxiv.org/pdf/1912.02762.pdf <br />
+[4] https://arxiv.org/pdf/1908.09257.pdf <br />
+[5] https://arxiv.org/pdf/1906.04032.pdf <br />
+[6] https://arxiv.org/pdf/2211.02487.pdf <br />
+[7] https://github.com/jraine/flows4flows <br />
+[8] https://arxiv.org/abs/2208.12279 <br />
+[9] https://github.com/maxgalli/ShowerShapesNormalizingFlow <br />
+[10] https://github.com/bayesiains/nflows <br />
+[11] https://github.com/francois-rozet/zuko.git <br />
