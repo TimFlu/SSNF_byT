@@ -1,9 +1,27 @@
 # SSNF_byT
-Hi Tim,
+**Timeline** <br />
+_Semester Week 2:_ <br />
+Study ETH Course until Week 7 normalizing flows. [Link to lecture](https://ait.ethz.ch/teaching/courses/2023-ss-machine-perception): <br />
+- [ ] Week 1
+- [ ] Week 2
+- [ ] Week 3
+- [ ] Week 4
+- [ ] Week 5
+- [ ] Week 6
+- [ ] Week 7
 
-As promised, here is the material to start reading when you have some time (there is no rush since we will start on September 25th).
-Keep in mind that you don’t have to go through everything, as it is a lot of stuff :)
+- [ ] Finish implementing and understanding of the following jupyter notebooks: (fff_study.ipynb and make_samples.ipynb)
 
+---
+
+
+_Semester Week 3:_ <br/>
+Look into differences between [nflows](https://github.com/bayesiains/nflows) and [Zuko](https://github.com/francois-rozet/zuko) libraries.
+- [ ] Create/ Define metric how to compare them on test samples.
+- [ ] Draw conclusion
+
+---
+---
 - Normalizing flows in general:
     - [1] repo containing link to the main resources, regularly updated (most of the stuff I mention in what follows is reported here as well)
     - [2] a presentation that Davide did at an ETH group meeting, with stuff from the papers already pre-digested (quite similar to the one you linked)
