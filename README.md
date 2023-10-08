@@ -12,7 +12,7 @@
 <summary>Semester Week 4:</summary>
 <br/>
 
--[ ] Test
+- [ ] Finish Zuko vs. nflows. (Keep it simple).
 
 </details>
 
