@@ -1,27 +1,50 @@
 # SSNF_byT
 **Timeline** <br />
-_Semester Week 2:_ <br />
+<details>
+<summary>Questions</summary>
+<br>
+
+- [ ] Question 1
+    
+</details>
+
+<details>
+<summary>Semester Week 4:</summary>
+<br/>
+
+-[ ] Test
+
+</details>
+
+<details>
+<summary>Semester Week 3:</summary>
+<br/>
+
+Look into differences between [nflows](https://github.com/bayesiains/nflows) and [Zuko](https://github.com/francois-rozet/zuko) libraries.
+- [ ] Create/ Define metric how to compare them on test samples.
+- [ ] Draw conclusion
+</details>
+
+<details>
+<summary>Semester Week 2</summary>
+<br>
+    
 Study ETH Course until Week 7 normalizing flows. [Link to lecture](https://ait.ethz.ch/teaching/courses/2023-ss-machine-perception): <br />
-- [ ] Week 1
-- [ ] Week 2
+- [x] Week 1
+- [x] Week 2
 - [ ] Week 3
 - [ ] Week 4
 - [ ] Week 5
 - [ ] Week 6
-- [ ] Week 7
+- [x] Week 7
 
 - [ ] Finish implementing and understanding of the following jupyter notebooks: (fff_study.ipynb and make_samples.ipynb)
+</details>
 
----
+<details>
+<summary>Important Links</summary>
+<br>
 
-
-_Semester Week 3:_ <br/>
-Look into differences between [nflows](https://github.com/bayesiains/nflows) and [Zuko](https://github.com/francois-rozet/zuko) libraries.
-- [ ] Create/ Define metric how to compare them on test samples.
-- [ ] Draw conclusion
-
----
----
 - Normalizing flows in general:
     - [1] repo containing link to the main resources, regularly updated (most of the stuff I mention in what follows is reported here as well)
     - [2] a presentation that Davide did at an ETH group meeting, with stuff from the papers already pre-digested (quite similar to the one you linked)
@@ -55,3 +78,4 @@ Massimiliano
 [9] https://github.com/maxgalli/ShowerShapesNormalizingFlow <br />
 [10] https://github.com/bayesiains/nflows <br />
 [11] https://github.com/francois-rozet/zuko.git <br />
+</details>
