@@ -4,8 +4,7 @@
 <summary>Questions</summary>
 <br>
 
-- [ ] In make_samples, sample3 and sample4, why is the data "perfect" Gaussian while MC is not. Goal is to model parameters of MC such that it nicely fits the data?
-- [ ] In make_samples, there is a MC algorithm introduced. This one is without specifically using flows right? Does this part have any other functionality for later usage? We store the weights in the dataframe as well.
+- [ ] Question 1
     
 </details>
 
