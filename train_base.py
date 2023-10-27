@@ -12,7 +12,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-#from utils.training import train_base
+from utils.training import train_base
 
 
 @hydra.main(version_base=None, config_path="config_base", config_name="cfg_test")
