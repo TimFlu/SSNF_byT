@@ -29,29 +29,33 @@ def main(cfg):
         OmegaConf.save(config=cfg, f=file)
     
     env_var = os.environ.get("CUDA_VISIBLE_DEVICES")
-    print("ENV VAR: ", env_var)
+
     if env_var:
         actual_devices = env_var.split(",")
         actual_devices = [int(d) for d in actual_devices]
     else:
         actual_devices = list(range(torch.cuda.device_count()))
-    # logger.info("Actual devices: ", actual_devices)
+
+    logger.debug("Actual devices: ", actual_devices)
     
     logger.info("Training with cfg: \n".format(OmegaConf.to_yaml(cfg)))
-    # if cfg.distributed:
-    #     world_size = torch.cuda.device_count()
-    #     # make dictionary with k: rank, v: actual device
-    #     dev_dct = {i: actual_devices[i] for i in range(world_size)}
-    #     logger.info(f"Devices dict: {dev_dct}")
-    #     mp.spawn(
-    #         train_base,
-    #         args=(cfg, world_size, dev_dct),
-    #         nprocs=world_size,
-    #         join=True
-    #     )
-    # else:
-    #     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    #     train_base(device, cfg)
+    print("train_base: cfg.distributed = ", cfg.distributed)
+    if cfg.distributed:
+        world_size = torch.cuda.device_count()
+        # make dictionary with k: rank, v: actual device
+        dev_dct = {i: actual_devices[i] for i in range(world_size)}
+        logger.info(f"Devices dict: {dev_dct}")
+        # Used to launch multiple processes, each with its own Python interpreter.
+        mp.spawn(
+            train_base,
+            args=(cfg, world_size, dev_dct),
+            nprocs=world_size,
+            join=True
+        )
+    else:
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        print("train_base.py: device = ", device)
+        train_base(device, cfg)
 
     
 if __name__ == "__main__":

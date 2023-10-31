@@ -120,6 +120,11 @@ def get_zuko_nsf(
     data_flow=None,
     penalty=None,
 ):
+    print(f"models.py - get_zuko_nsf: input_dim={input_dim}, context_dim={context_dim},\
+ ntransforms={ntransforms}, nbins={nbins}, nnodes={nnodes}, nlayers={nlayers},\
+ mc_flow={mc_flow}, data_flow={data_flow}, penalty={penalty}")
+    
+    # seems to enter first if statement by default with zuko0 config
     if data_flow is None and mc_flow is None and penalty is None:
         flow = NSF(
             features=input_dim,
